@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup/Login</title>
+    <link rel="website icon" href="../Home/Images/logo/Logo.jpg" type="jpg">
+
+    <link rel="stylesheet" href="Signuplogin.css">
+  </head>
+
+  <body>
+    <header>
+      <!--First line Menu -->
+      <a href="../Home/Home.html"><img class="logo" src="../Home/Images/logo/Logo.jpg" alt="Logo" /></a>
+  
+      
+     <!--Shop name-->
+      <h1><a href="../Home/Home.html">HEELS FOOTWEAR</a></h1>
+  
+      <menu class="navmenu">
+        <li><a href="../Help/Help.html" target="_self">Help</a></li>
+        <li><a href="../TrackOrder/TrackOrder.html" target="_self">Track Order</a></li>
+        <li><a href="../SignupLogin/signuplogin.html" target="_self">Signup/Login</a></li>
+      </menu>
+    </header>
+    <!--     Login page -->
+     <section id="log">
+      <h2  id="Login">LOGIN</h2>
+      <form action="#" method="post">
+        <label for="Username" class="loginLabel">Username</label>
+        <input type="text" name="Username" id="Username" required maxlength="20" minlength="5" class="loginLabel"/><br />
+        <label for="Password" class="loginLabel">Password</label>
+        <input type="password" name="Password" id="Password" required maxlength="12" minlength="6" class="loginLabel" /><br />
+        <button type="submit" value="Login" class="loginLabel" id="login">Login</button>
+      </form><br />
+      <p class="loginLabel" >New Customer? <a href="#" id="signup">Signup</a></p>
+    </section>
+
+    <!--     signup page -->
+    <section id="sign" >
+      <h2 id="Signup">SIGNUP</h2>
+      <form action="#" method="post">
+        <label for="Firstname" class="loginLabel">First name</label>
+        <input type="text" name="Firstname" id="Firstname" required maxlength="15" minlength="1"  class="loginLabel"/><br />
+        <label for="Lastname" class="loginLabel">Last name</label>
+        <input type="text" name="Lastname" id="Lastname" required maxlength="15" minlength="1" class="loginLabel" /><br />
+        <label for="Email" class="loginLabel">Email</label>
+        <input type="email" name="Email" id="Email" required class="loginLabel" /><br />
+        <label for="Createpassword" class="loginLabel">Create Password</label>
+        <input type="password" name="Createpassword" id="Createpassword" required maxlength="12" minlength="6" class="loginLabel"/><br />
+        <label for="Confirmpassword" class="loginLabel">Confirm Password</label>
+        <input type="password" name="Confirmpassword" id="Confirmpassword" required maxlength="12" minlength="6" class="loginLabel"/><br />
+        <button type ="submit" value="Signup"  class="loginLabel" id="Signuup">Signup</button>
+      </form>
+      <p class="loginLabel" >Already have an account ?<a href="#" id="showlog">Login</a></p>
+    </section><hr>
+    <footer>
+      <!--   end path-->
+      <form action="#" method="post">
+        <label for="Feedback">Feedback</label><br />
+        <textarea id="Feedback" name="Feedback" placeholder="Type here " cols="25" rows="4" maxlength="150" required></textarea><br />
+        <button type="submit" value="submit">submit</button>
+      </form>
+      <address>
+        <p>
+          <strong>Visit Us</strong><br />
+          The Heel Footwear, <br />
+          123 Fashion Avenue New Delhi, <br />
+          DL 110001,India.<br />
+          Phone: +91 1234 567890<br />
+          Email:
+          <a href="mailto:contact@heelfootwear.in">contact@heelfootwear.in</a>
+        </p>
+      </address>
+      <p>
+        Thank You for choosing The Heel Footwear.<br> We appreciate your support and
+        are committed to providing you with the best footwear shopping
+        experience. <br>We hope you enjoy your new product and look forward to
+        welcoming you back soon!<br /><br /><b>
+          Warm regards, The Heel Footwear Team 😊</b
+        >
+      </p>
+    </footer>
+
+    <script src="./signuplogin.js"></script>
+  </body>
+</html>
